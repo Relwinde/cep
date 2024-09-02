@@ -2,9 +2,10 @@
 
 namespace App\Livewire\Elements;
 
-use App\Models\Affectation;
 use Livewire\Component;
-use WithPagination;
+use App\Models\Affectation;
+use Livewire\WithPagination;
+
 
 class AffectationTable extends Component
 {
@@ -18,6 +19,7 @@ class AffectationTable extends Component
     public $ecole;
     public $etablissement;
 
+    use WithPagination;
     public function render()
     {
 
