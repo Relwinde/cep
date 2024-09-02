@@ -4,6 +4,7 @@ namespace App\Livewire\Elements;
 
 use App\Models\Affectation;
 use Livewire\Component;
+use WithPagination;
 
 class AffectationTable extends Component
 {
